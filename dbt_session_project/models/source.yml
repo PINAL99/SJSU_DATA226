@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    database: USER_DB_DRAGON
+    schema: RAW
+    tables:
+      - name: user_session_channel
+        identifier: USER_SESSION_CHANNEL
+
+      - name: session_timestamp
+        identifier: SESSION_TIMESTAMP
